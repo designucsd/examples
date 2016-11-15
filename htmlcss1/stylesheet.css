@@ -14,7 +14,7 @@ html, body {
   text-align: center;
   background-color: gray; /* Or your choice color */
   /* background-image: url("path/to/your/image"); */
-  background-image: url("https://images.unsplash.com/photo-1474905187624-b3deaf7aa4c2");
+  background-image: url("bull_background.jpg");
   background-size: cover;
 }
 .hero h1 {
