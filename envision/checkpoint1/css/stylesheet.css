@@ -10,13 +10,12 @@ html, body {
 
 /* Hero section */
 .hero {
-  min-height: 650px;
   width: 100%;
   background-color: #112333;
 }
 .hero-content {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 220px;
+  padding-bottom: 220px;
   text-align: center;
   color: white;
 }
