@@ -5,28 +5,30 @@
 html, body {
   padding: 0;
   margin: 0;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 
 /* Hero section */
-.hero {
+.ucsd-hero {    
    color: white; 
-   background-color: #112333;
+   background-color: #112333; /*fallback if the background image isn't there*/
+   background-image: url('http://orig13.deviantart.net/4a63/f/2013/118/2/4/tumblr_background__repeat__by_janku_roketto-d63dzsa.jpg');
 }
 
-.hero-content {
+.ucsd-hero-content {
   padding-top: 220px;
   padding-bottom: 220px;
   text-align: center;
 }
 
-.title {
+.ucsd-title {
   font-size: 48px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-weight: 300;
 }
-.subtitle {
+.ucsd-subtitle {
   font-style: italic;
   font-size: 24px;
   letter-spacing: 1px;
@@ -34,15 +36,20 @@ html, body {
 }
 
 /* Button */
-.button {
+.ucsd-button {
+  display: inline-block;
   padding: 0 28px;
-  letter-spacing: 1.5px;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
   height: 50px;
-  line-height: 50px;
-  font-size: 14px;
+  font-size: 1rem;
   border-radius: 25px;
   background-color: #34699A;
   color: white;
-  display: inline-block;
+  border: none;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+.ucsd-button:hover{  
+  background-color: #0e4374;
 } 
