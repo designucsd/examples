@@ -5,28 +5,30 @@
 html, body {
   padding: 0;
   margin: 0;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 
 /* Hero section */
-.hero {
+.ucsd-hero {    
    color: white; 
-   background-color: #112333;
+   background-color: #112333; /*fallback if the background image isn't there*/
+   background-image: url('http://orig13.deviantart.net/4a63/f/2013/118/2/4/tumblr_background__repeat__by_janku_roketto-d63dzsa.jpg');
 }
 
-.hero-content {
+.ucsd-hero-content {
   padding-top: 220px;
   padding-bottom: 220px;
   text-align: center;
 }
 
-.title {
+.ucsd-title {
   font-size: 48px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-weight: 300;
 }
-.subtitle {
+.ucsd-subtitle {
   font-style: italic;
   font-size: 24px;
   letter-spacing: 1px;
@@ -34,49 +36,53 @@ html, body {
 }
 
 /* Button */
-.button {
+.ucsd-button {
+  display: inline-block;
   padding: 0 28px;
-  letter-spacing: 1.5px;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
   height: 50px;
-  line-height: 50px;
-  font-size: 14px;
+  font-size: 1rem;
   border-radius: 25px;
   background-color: #34699A;
   color: white;
-  display: inline-block;
-} 
+  border: none;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+.ucsd-button:hover{  
+  background-color: #0e4374;
+}
 
 /* Step 2 */
-.info {
+.ucsd-info {
   max-width: 1100px;
-  padding: 100px 15px;
-  margin: auto;
+  margin: 100px auto; /*100px top and bottom, auto left and right allows it to center*/
+  padding: 0 15px; /* For when the window is smaller, doesn't but up against the edges */
 }
-.italic {
+.ucsd-italic {
   font-style: italic;
 }
 /* Split left/right */
-.half {
+.ucsd-half {
   width: 50%;
   display: inline-block;
   vertical-align: middle;
 }
-.half-content h2 {
+.ucsd-half-content{
+    font-size: 18px;
+    color: #5c6772;
+}
+.ucsd-half-content-header{
   font-weight: 300;
   font-size: 42px;
 }
-.half-content p {
-  line-height: 1.6;
-  font-size: 18px;
-  color: #5c6772;
-}
-.half-content img {
+.ucsd-computer-image{
   width: 100%;
 }
 
 /* Step 3 - Navigation */
-.nav {
+.ucsd-nav {
   background-color: white;
   padding: 16px 0;
   width: 100%;
@@ -84,38 +90,41 @@ html, body {
   top: 0;
   border-bottom: 1px solid #5c6772;
 }
-.nav-content {
+.ucsd-nav-content {
   margin: auto;
   max-width: 1100px;
   position: relative;
 }
-.nav-left {
+.ucsd-nav-left {
   float: left;
 }
-.nav-right {
+.ucsd-nav-right {
   float: right;
 }
-.nav .logo {
+.ucsd-nav .ucsd-logo {
   padding-left: 16px;
   line-height: 36px;
 }
-.nav ul {
+.ucsd-nav-right {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
 }
-.nav ul li {
+.ucsd-nav-right__item {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 0 10px;
   color: #5c6772;
+  cursor: pointer;
 }
-.nav .button {
+.ucsd-nav-right__item:hover{
+  color:#040505;
+}
+.ucsd-nav-right__item .ucsd-button {
   padding: 0 20px;
   margin: 0 10px;
   color: white;
   height: 40px;
-  line-height: 40px;
 }
