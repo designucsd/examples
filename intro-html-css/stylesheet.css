@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* You can edit your existing body tag */
+body {
+  font-family: "Lato", "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+html, body {
+  padding: 0;
+  margin: 0;
+}
+.hero {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  text-align: center;
+  background-color: gray; /* Or your choice color */
+  /* background-image: url("path/to/your/image"); */
+  background-image: url("bull_background.jpg");
+  background-size: cover;
+}
+.hero h1 {
+  color: white; /* Or your choice color */
+  font-size: 64px;
+  font-family: "Montserrat", "Lato", "Helvetica", sans-serif;
+}
+p {
+  font-size: 20px;
+  background-color: #f1f1f1;
+  padding: 12px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px 0 #ddd; /* This adds some depth */
+}
+.container {
+  margin: auto;
+  max-width: 700px;
+  color: #555;
+  padding: 10px;
+}
+/* How about making your punchline more unique? */
+.punchline {
+  /*font-size: 28px;*/
+  font-style: italic;
+}
