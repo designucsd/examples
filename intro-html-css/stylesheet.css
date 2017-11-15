@@ -30,7 +30,7 @@ html, body {
 
 .hero {
   /* background-image: url("path/to/your/image"); */
-  background-image: url("http://designatucsd.org/examples/htmlcss1/bull_background.jpg");
+  background-image: url("http://designatucsd.org/examples/files/bull-big.jpg");
   background-size: cover;
 }
 .hero h1 {
@@ -75,8 +75,22 @@ p {
 }
 
 .home-hero {
-  background: url('https://i.rmbl.ws/s8/6/7/p/3/x/7p3xa.oq1b.2.jpg') no-repeat 0 center;
-  background-size: cover;
+  background-image: none;
+  background-color: #077EA4;
   padding: 14vh 0;
   margin-bottom: 6px;
+}
+
+/**
+ * Boywolf styling
+ */
+.dog-hero {
+  background-image: url('https://designatucsd.org/examples/files/wolf-big.jpg');
+}
+
+/**
+ * Fox styling
+ */
+.fox-hero {
+  background-image: url('https://designatucsd.org/examples/files/fox-big.jpg');
 }
