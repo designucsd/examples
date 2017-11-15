@@ -1,0 +1,96 @@
+/* The url below is given by fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* You can edit your existing body tag */
+body {
+  /* The continued use of Helvetica afterwards is as a back up, say in case Lato fails to load due to bad network connection */
+  font-family: "Lato", "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+.header {
+  color: blue;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+.hero {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  text-align: center;
+  background-color: gray; /* Or your choice color */
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  /* background-image: url("path/to/your/image"); */
+  background-image: url("http://designatucsd.org/examples/files/bull-big.jpg");
+  background-size: cover;
+}
+.hero h1 {
+  color: white; /* Or your choice color */
+}
+
+/**
+ * Readability
+ */
+.container {
+  margin: auto;
+  max-width: 700px;
+  padding: 10px;
+  color: #555;
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-weight: lighter;
+}
+p {
+  /* Try figuring this out */
+  font-size: 20px;
+}
+
+.card-wrapper {
+  text-align: center;
+}
+
+.card {
+  background-color: #f1f1f1; /* Or your choice color */
+  margin-top: 10px;
+  display: inline-block;
+  width: 31%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.home-hero {
+  background-image: none;
+  background-color: #077EA4;
+  padding: 14vh 0;
+  margin-bottom: 6px;
+}
+
+/**
+ * Boywolf styling
+ */
+.dog-hero {
+  background-image: url('https://designatucsd.org/examples/files/wolf-big.jpg');
+}
+
+/**
+ * Fox styling
+ */
+.fox-hero {
+  background-image: url('https://designatucsd.org/examples/files/fox-big.jpg');
+}
