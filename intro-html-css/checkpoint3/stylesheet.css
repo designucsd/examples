@@ -55,28 +55,3 @@ p {
   /* Try figuring this out */
   font-size: 20px;
 }
-
-.card-wrapper {
-  text-align: center;
-}
-
-.card {
-  background-color: #f1f1f1; /* Or your choice color */
-  margin-top: 10px;
-  display: inline-block;
-  width: 31%;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
-  text-align: center;
-}
-
-.card img {
-  width: 100%;
-}
-
-.home-hero {
-  background: url('https://i.rmbl.ws/s8/6/7/p/3/x/7p3xa.oq1b.2.jpg') no-repeat 0 center;
-  background-size: cover;
-  padding: 14vh 0;
-  margin-bottom: 6px;
-}
